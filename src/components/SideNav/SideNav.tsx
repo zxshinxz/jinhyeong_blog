@@ -81,7 +81,7 @@ export const SideNav = (props: SideNavProps) => {
                         <Route exact path={["/", pubUrl]}>
                             <Redirect to={pubUrl + props.menus[0].path} />
                         </Route>
-                        <Route exact path="/andy-blog">
+                        <Route exact path="/jinhyeong_blog">
                             <Redirect to={pubUrl + props.menus[0].path} />
                         </Route>
                         {props.menus.map((route, index) => (
