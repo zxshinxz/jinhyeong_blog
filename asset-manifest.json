@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/jinhyeong_blog/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/jinhyeong_blog/static/js/main.5f85be25.chunk.js",
-    "main.js.map": "/jinhyeong_blog/static/js/main.5f85be25.chunk.js.map",
-    "runtime-main.js": "/jinhyeong_blog/static/js/runtime-main.a4b60dfe.js",
-    "runtime-main.js.map": "/jinhyeong_blog/static/js/runtime-main.a4b60dfe.js.map",
-    "static/js/2.7b898a93.chunk.js": "/jinhyeong_blog/static/js/2.7b898a93.chunk.js",
-    "static/js/2.7b898a93.chunk.js.map": "/jinhyeong_blog/static/js/2.7b898a93.chunk.js.map",
-    "static/js/3.d6ad044a.chunk.js": "/jinhyeong_blog/static/js/3.d6ad044a.chunk.js",
-    "static/js/3.d6ad044a.chunk.js.map": "/jinhyeong_blog/static/js/3.d6ad044a.chunk.js.map",
-    "index.html": "/jinhyeong_blog/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/jinhyeong_blog/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.7b898a93.chunk.js.LICENSE.txt": "/jinhyeong_blog/static/js/2.7b898a93.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/jinhyeong_blog/static/media/logo.6ce24c58.svg"
+    "main.css": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/js/main.6fc37a22.chunk.js",
+    "main.js.map": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/js/main.6fc37a22.chunk.js.map",
+    "runtime-main.js": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/js/runtime-main.1528ef2e.js",
+    "runtime-main.js.map": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/js/runtime-main.1528ef2e.js.map",
+    "static/js/2.65b3e015.chunk.js": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/js/2.65b3e015.chunk.js",
+    "static/js/2.65b3e015.chunk.js.map": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/js/2.65b3e015.chunk.js.map",
+    "static/js/3.0e4a082a.chunk.js": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/js/3.0e4a082a.chunk.js",
+    "static/js/3.0e4a082a.chunk.js.map": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/js/3.0e4a082a.chunk.js.map",
+    "index.html": "/jeon-jinhyeong.github.io/jinhyeong_blog/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.65b3e015.chunk.js.LICENSE.txt": "/jeon-jinhyeong.github.io/jinhyeong_blog/static/js/2.65b3e015.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a4b60dfe.js",
-    "static/js/2.7b898a93.chunk.js",
+    "static/js/runtime-main.1528ef2e.js",
+    "static/js/2.65b3e015.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.5f85be25.chunk.js"
+    "static/js/main.6fc37a22.chunk.js"
   ]
 }
