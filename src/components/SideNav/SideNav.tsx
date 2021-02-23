@@ -67,7 +67,7 @@ export const SideNav = (props: SideNavProps) => {
             <div className="SideNav"
                  css={style()}>
                 <div id={"sideNav"}>
-                    <img src={"https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1603679690/noticon/g16oddfpbk4wci2ec7nr.gif"}></img>
+                    jinhyeong_blog
                     {
                         props.menus.map((menu: Menu, idx: number) => {
                             if (menu.hidden) return null;
