@@ -20,7 +20,7 @@ function style() {
       #sideNav {
           width: 20%;
           height: 100%;
-          background-color: #5882FA;
+          background-color: #1a506d;
           color: #ffffff;
           .sideNavMenu {
             cursor: pointer;
@@ -33,7 +33,7 @@ function style() {
           width: 80%;
           height: 100%;
           .main-content {
-           padding-top: 20px;
+            padding-top: 20px;
           }
       }
     `
@@ -44,12 +44,15 @@ export interface Menu {
     exact?: boolean,
     label: string,
     component: () => JSX.Element
+    hidden?: boolean,
 }
 
 export interface SideNavProps {
     menus: Menu[]
     children?: JSX.Element[] | JSX.Element
 }
+
+const pubUrl = process.env.PUBLIC_URL;
 
 export const SideNav = (props: SideNavProps) => {
     const [selectedMenuIndex, setSelectedMenuIndex] = useState(0);
@@ -58,18 +61,18 @@ export const SideNav = (props: SideNavProps) => {
     // useEffect(() => {
     // }, [selectedMenuIndex])
 
-    const pubUrl = process.env.PUBLIC_URL;
 
     return (
         <Router>
             <div className="SideNav"
                  css={style()}>
                 <div id={"sideNav"}>
-                    jinhyeong_blog
+                    <img src={"https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1603679690/noticon/g16oddfpbk4wci2ec7nr.gif"}></img>
                     {
                         props.menus.map((menu: Menu, idx: number) => {
-                            return <div key={idx}
-                                        className={"sideNavMenu"}>
+                            if (menu.hidden) return null;
+                            else return <div key={idx}
+                                             className={"sideNavMenu"}>
                                 <Link to={pubUrl + menu.path}>{menu.label}</Link>
                             </div>
                         })
@@ -81,7 +84,7 @@ export const SideNav = (props: SideNavProps) => {
                         <Route exact path={["/", pubUrl]}>
                             <Redirect to={pubUrl + props.menus[0].path} />
                         </Route>
-                        <Route exact path="/jinhyeong_blog">
+                        <Route exact path="/andy-blog">
                             <Redirect to={pubUrl + props.menus[0].path} />
                         </Route>
                         {props.menus.map((route, index) => (

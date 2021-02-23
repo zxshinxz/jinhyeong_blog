@@ -1,7 +1,7 @@
 {
   "homepage": "jeon-jinhyeong.github.io/jinhyeong_blog",
   "name": "jinhyeong_blog",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.1.5",
@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "26.0.15",
     "@types/node": "12.0.0",
+    "@types/lodash": "4.14.168",
     "@types/react": "16.9.53",
     "@types/react-dom": "16.9.8",
     "@types/react-router-dom": "^5.1.7",
@@ -51,10 +52,11 @@
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.1.18",
-    "@storybook/addon-essentials": "^6.1.18",
+    "@storybook/addon-essentials": "^5.3.21",
     "@storybook/addon-links": "^6.1.18",
     "@storybook/node-logger": "^6.1.18",
     "@storybook/preset-create-react-app": "^3.1.6",
-    "@storybook/react": "^6.1.18"
+    "@storybook/react": "^6.1.18",
+    "@types/lodash": "^4.14.168"
   }
 }
