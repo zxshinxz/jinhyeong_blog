@@ -24,7 +24,7 @@ export type AsyncState<D, E> = {
 
 export type AsyncEffectState<D, E, F> = {
     state: AsyncState<D, E>;
-    run: () => void;
+    run: (...params: []) => void;
 };
 
 function asyncReducer<D, E>(
@@ -86,7 +86,7 @@ function useAsync<D, E, F extends PromiseFn<D>>(promiseFn: F, deps = []) {
 function useAsyncEffect<D, E, F extends PromiseFn<D>>(
     promiseFn: F,
     params: Parameters<F>,
-    deps: unknown[]
+    deps: []
 ) {
     const [state, run] = useAsync<D, E, F>(promiseFn);
     useEffect(
